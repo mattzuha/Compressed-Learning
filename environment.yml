@@ -1,0 +1,23 @@
+name: c1
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+
+  # Core scientific stack
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - h5py
+
+  # Visualization & tools
+  - cartopy
+  - tqdm
+  - tensorboard
+
+  # Jupyter support
+  - jupyter
+  - ipykernel
