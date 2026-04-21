@@ -18,6 +18,11 @@ dependencies:
   - tqdm
   - tensorboard
 
+  # Machine learning
+  - scikit-learn
+  - tifffile
+  - pillow
+
   # Jupyter support
   - jupyter
   - ipykernel
